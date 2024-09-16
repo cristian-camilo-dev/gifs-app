@@ -1,0 +1,29 @@
+.sidebar {
+  width: 16rem;
+  background-color: black;
+  height: 100%;
+  padding: 1rem;
+}
+
+.sidebar__title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: white;
+}
+
+.sidebar__item {
+  margin-bottom: 0.5rem;
+  color: white;
+  list-style: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.sidebar__item:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  text-underline-offset: 0.25rem;
+  text-decoration-thickness: 0.1rem;
+  text-decoration-color: #00ff00;
+}
