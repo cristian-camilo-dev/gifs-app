@@ -1,14 +1,11 @@
 import style from "./GifsApp.module.css";
 import { mockGifs } from "./mock-data/gifs.mock";
+import { CustomHeader } from "./shared/components/CustomHeader";
 
 export const GifsApp = () => {
   return (
     <>
-      <div className={style.contentCenter}>
-        <h1>Buscador de Gifs</h1>
-        <p>Descubre y comparte los mejores gifs</p>
-      </div>
-
+      <CustomHeader />
       {/*Search*/}
       <div className={style.searchContainer}>
         <input type="text" placeholder="Buscar Gifs" />

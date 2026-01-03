@@ -9,8 +9,8 @@ export interface Gif {
 export const mockGifs: Gif[] = [
   {
     id: "1",
-    title: "Superman's Cake",
-    url: "https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExZWVxbHY0dncxMHJlZXRvOTY3MXl5cHp0dWs4aG5iY3d0ZWhlcDM5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/0GtVKtagi2GvWuY3vm/giphy.gif",
+    title: "Dancer cat",
+    url: "https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbm14NmhrbGoxdWN6dmMzMThnNjZmazgxODIwY2VmN3g3YWNhb3RkeiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/UmnWEKDFoPmcZHmwFl/giphy.gif",
     width: 300,
     height: 300,
   },
