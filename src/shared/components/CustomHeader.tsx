@@ -1,10 +1,15 @@
 import style from "@/GifsApp.module.css";
 
-export const CustomHeader = () => {
+interface CustomHeaderProps {
+  title: string;
+  description?: string;
+}
+
+export const CustomHeader = ({ title, description }: CustomHeaderProps) => {
   return (
     <div className={style.contentCenter}>
-      <h1>Buscador de Gifs</h1>
-      <p>Descubre y comparte los mejores gifs</p>
+      <h1>{title}</h1>
+      {description && <p>{description}</p>}
     </div>
   );
 };
